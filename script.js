@@ -146,12 +146,22 @@ const programmers = [
     }     
 ]
 
+for (let i in programmers) {
+    const prog = programmers[i];
+console.log(i, prog.name, prog.lastname, prog.knowledge);
+}
+
+
 //Escribe tu código aquí
 
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
 const names = ['Rocío', 'Lola', 'Antía', 'Laura', 'Noelia']
+
+for (let i of names) {
+    console.log("Hola, mi nombre es", i);
+}
 
 //Escribe tu código aquí
 
